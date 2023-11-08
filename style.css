@@ -1,0 +1,79 @@
+.header, ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+a, li{
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+}
+
+.first-container{
+    display: flex;
+    background-color: grey;
+}
+
+.first-inner-container{
+    width: 50%;
+}
+
+.first-inner-inner-container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-inner-inner-container{
+    display: flex;
+    gap: 20px;
+    width: 70%;
+}
+
+.empty-card{
+    border: 2px solid black;
+    /* TO adjust the card size */
+    padding: 30%;
+}
+
+.card p{
+    text-align: center;
+}
+
+.third-inner-container{
+    width: 50%;
+   /* Don't know why this line of code work */
+   margin: auto;
+}
+
+.third-inner-inner-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer{
+    display: flex;
+    background-color: skyblue;
+    padding: 20px 90px;
+}
+
+.fourth-container h3, p{
+    margin: 0;
+}
+
+.fourth-container{
+    margin: 10px 0;
+}
+
+.fourth-inner-container{
+    margin: auto;
+}
