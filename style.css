@@ -17,9 +17,14 @@ a, li{
 
 .first-inner-container{
     width: 50%;
+    margin: 2%;
 }
 
 .first-inner-inner-container{
+    margin: 2% 0;
+}
+
+.first-inner-inner-inner-container{
     width: 50%;
     display: flex;
     justify-content: center;
